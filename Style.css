@@ -1,0 +1,463 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  padding: 0px 290px;
+
+}
+
+
+/* First Page */
+header {
+  display: block;
+  margin: 12px auto;
+  background-color: #fff;
+}
+
+.main1 {
+  background-image: url("/Images/ayo-ogunseinde-0xWXyaa8bTQ-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 146.669vw;
+  max-height: 1000px;
+  padding: 16px 0 68px;
+  text-align: center;
+  color: white;
+}
+
+.main-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-title {
+  font-size: 18px;
+  color: #fff;
+}
+
+.app-link {
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: #fff;
+  text-decoration: none;
+  color: black;
+  padding: 5px 5px 0px 5px;
+}
+
+.bi {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+/* Second page  */
+.main2 {
+  background-color: #f9f8ff;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 20px;
+}
+
+.UserCount {
+  display: flex;
+}
+.countItem {
+  width: 80px;
+  padding: 5px;
+  font-size: 80px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  border-radius: 8px;
+  margin: 5px;
+  background-image: linear-gradient(#9c58d2 50%, #8f4cc4 50%);
+}
+
+.FitnessCount {
+  display: flex;
+}
+
+.fitCount {
+  width: 60px;
+  padding: 5px;
+  font-size: 80px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  border-radius: 8px;
+  margin: 5px;
+  background-image: linear-gradient(#844ac7 50%, #7949c3 50%);
+}
+
+.userTitle {
+  font-weight: bold;
+  text-align: center;
+}
+
+.shortBrif {
+  opacity: 0.8;
+  text-align: center;
+}
+
+.LineBreak {
+  display: block;
+}
+
+.opening {
+  display: flex;
+}
+
+.time {
+  width: 60px;
+  padding: 5px;
+  font-size: 80px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  border-radius: 8px;
+  margin: 5px;
+  background-image: linear-gradient(#7249c1 50%, #5f48b9 50%);
+}
+
+/* Third Page */
+.main3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding: 50px 20px;
+  height: 800px;
+  color: #fff;
+  background-image: url("/Images/healthy-teenage-girl-.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.main3 button {
+  padding: 10px 20px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+}
+
+.main3 button a {
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+
+.armsBtn,
+.bellyBtn {
+  margin: 0px 110px 60px 0px;
+  background-color: white;
+}
+
+/* Fourth Page */
+.main4 {
+  text-align: center;
+  height: auto;
+  padding: 50px 20px;
+  background-color: #eae7ff;
+}
+
+.AllCards .card {
+  width: 80px;
+  height: 160px;
+  padding: 2px 0px;
+  margin: 25px 2px;
+  border-radius: 10px;
+  color: #7647ba;
+  text-align: start;
+  box-shadow: 0.5px 0.5px 5px 0.5px rgb(194, 192, 192);
+}
+
+.CircularCard {
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  margin-top: 75px;
+  background-color: #fff;
+  box-shadow: 0.5px 0.5px 5px 0.5px rgb(194, 192, 192);
+}
+
+.card-title {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.cardFont1 {
+  font-size: 5px;
+  font-weight: bold;
+}
+.cardFont2 {
+  font-size: 7px;
+  line-height: 2px;
+}
+
+.WedcardFont1 {
+  font-size: 8px;
+  font-weight: bold;
+}
+
+.WedcardFont2 {
+  font-size: 8px;
+  line-height: 0px;
+}
+
+.MealCard {
+  display: flex;
+  justify-content: center;
+}
+
+.MealCard .card {
+  width: 100px;
+  border-radius: 8px;
+  padding-top: 5px;
+  margin: 0px 2px;
+  height: 200px;
+  margin-top: 10px;
+  box-shadow: 0.5px 0.5px 5px 0.5px rgb(194, 192, 192);
+}
+
+.hours h6 {
+  font-size: 8px;
+  font-weight: bold;
+  text-align: end;
+  line-height: 7px;
+}
+
+.MealMenu {
+    line-height: 12px;
+}
+
+.MealMenu p {
+  font-size: 8px;
+  font-weight: bold;
+}
+
+.MealMenu img {
+  height: 10px;
+  width: 10px;
+}
+
+/* Fifth Page  */
+
+.beforeAfter {
+  background-color: #f9f8fe;
+  padding: 50px 0px;
+}
+
+.beforeAfter h2 {
+  color: #5345ba;
+  font-weight: bold;
+  text-align: center;
+}
+
+.beforeAfter p {
+  text-align: center;
+  color: #faa700;
+  font-weight: bold;
+  font-size: large;
+}
+
+.beforeAfterBtn button {
+  font-weight: bold;
+  font-size: 180%;
+  width: 30%;
+}
+
+.beforeBtn {
+  text-align: end;
+  border: 2px solid #572c9a;
+  background-color: #fff;
+  color: #572c9a;
+  padding: 15px 25px 15px 0px;
+  border-left: none;
+  border-radius: 0px 12px 12px 0px;
+}
+
+.afterBtn {
+  text-align: start;
+  color: #fff;
+  border: none;
+  padding: 10px 0px 10px 25px;
+  border-radius: 12px 0px 0px 12px;
+  background-image: linear-gradient(to right, #5047b3, #8049c8);
+}
+
+/* Sixth Page  */
+
+.Comment {
+  /* display: flex;
+    flex-direction: column;
+    align-items: center ; */
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #764ac3;
+  color: white;
+}
+
+.CommentCard {
+  padding: 20px 25%;
+}
+
+.RatingCard {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  color: black;
+  background-color: #fff;
+  border-radius: 8px;
+  margin-bottom: 25px;
+  text-align: start;
+}
+
+.card-body p {
+  font-size: 10px;
+}
+
+.cardImage img {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #d963d4;
+  border-radius: 50%;
+  margin-top: 10px;
+  padding: 2px;
+}
+
+.cardImage p {
+  font-size: 10px;
+  text-align: center;
+}
+
+.bi-star-fill {
+  color: orange;
+  font-size: 10px;
+}
+
+/* footer page  */
+
+footer {
+  padding: 50px 20px;
+  background-color: #6348ba;
+  text-align: center;
+  color: white;
+}
+
+footer a {
+  padding: 20px;
+  font-size: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+footer a .bi {
+  color: #6348ba;
+  padding: 5px;
+  font-size: 20px;
+  background-color: white;
+  border-radius: 50px;
+}
+
+footer a:hover {
+  color: white;
+}
+
+.installLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  bottom: 0px;
+  left: 0;
+  padding: 5px 0px;
+  background-image: linear-gradient(to right, #3a329c, #b612ba);
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 770px) {
+  body {
+    padding: 0px;
+  }
+}
+
+@media only screen and (min-width: 770px) {
+  body {
+    padding: 0px 150px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  body {
+    padding: 0px 290px;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .LineBreak {
+    display: inline;
+  }
+
+  .cardFont1 {
+    font-size: 4px;
+    font-weight: bold;
+  }
+  .cardFont2 {
+    font-size: 5px;
+    line-height: 2px;
+  }
+
+  .WedcardFont1 {
+    font-size: 6px;
+    font-weight: bold;
+  }
+
+  .WedcardFont2 {
+    font-size: 6px; 
+  }
+  .MealMenu {
+    line-height: 8px;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .CommentCard {
+    align-items: flex-start;
+    padding: 0px 0px;
+  }
+  .RatingCard {
+    width: 100%;
+  }
+}
+
+
+@media only screen and (min-width: 1300px){
+    .main-default {
+        width: 768px;
+        min-width: 220px;
+        margin: 0px auto;
+        
+       
+    }
+}
